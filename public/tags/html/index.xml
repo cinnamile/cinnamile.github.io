@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html on FOOLEST-NET</title>
+    <link>https://foolest.net/tags/html/</link>
+    <description>Recent content in html on FOOLEST-NET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://foolest.net/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ウェブサイトを更新しました</title>
+      <link>https://foolest.net/post/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://foolest.net/post/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description> こんにちは。しなみ(@cinnamile)です。 この度ウェブサイト(旧:pien.tk)をWordPressから静的ページジェネレーターのHugoに乗り換え、サーバをXreaからnetlifyへ移転しました！
+WordPressからHugo、Xreaからnetlifyへ 長年慣れ親しんだWordPress管理画面での記事作成から大きく変わってHugoはマークダウン記法で記述するというシステムで、この記事を書いている今も慣れない作業に苦戦しております。 マークダウン記法はまともに触るのは今回が初めてなのでテンプレートや解説サイトをよく読みながら書いていく形で覚えていこうと思います。
+サイト移転の経緯について 主にWordPressで自分の作りたかったデザインが作れなかったこと、更新頻度が低いので動的WordPressを使う必要がなくなったこと、が理由です。 Xreaは広告を強制的にヘッダー内に表示し、トップページのデザインに影響を及ぼしていたので広告無しで運用できる静的サイトを構築することにしました。 公式ページで見つけたDOS風テーマをカスタム(フォントを日本語化等)した今のデザインには概ね満足しています。
+旧サイトについて 当分の間は残しますが、 Webサーバーの運用は21年夏を目処に閉鎖します。 メールアドレスやサブドメインは今まで通り運用します。 それまでには各プロフィールのアドレスを変更する予定です。
+新しいサイトで更新頻度が上がることはありませんが今後ともよろしくお願いします。　しなみ
+ </description>
+    </item>
+    
+  </channel>
+</rss>

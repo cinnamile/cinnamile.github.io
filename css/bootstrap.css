@@ -221,32 +221,29 @@ textarea {
   }
 }
 
-/*@font-face {
+@font-face {
   font-family: 'DOS';
   font-style: normal;
   font-weight: normal;
   src: url('fonts/Fixedsys500c.eot');
   src: local('?'), url('fonts/Fixedsys500c.woff') format('woff'), url('fonts/Fixedsys500c.ttf') format('truetype'), url('fonts/Fixedsys500c.svg') format('svg');
-}*/
-
-@font-face {
-  font-family: 'pixeltype';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/Pixeltype.ttf') format('truetype');
 }
+
 
 // 日本語フォント
 @font-face {
-  font-family: 'JFドットjiskan16-2000';
+  font-family: 'myFont';
   font-style: normal;
   font-weight: normal;
-  src: url('fonts/websubset.woff') format('woff'), url('fonts/websubset.ttf') format('truetype');
+  src: local('?'), url('fonts/websubset.eot') format('eot'),
+		url("fonts/websubset.woff2") format('woff2'),
+		url("fonts/websubset.woff") format('woff'),
+		url("fonts/websubset.ttf") format('truetype');
 }
 
 body {
   margin: 0;
-  font-family: pixeltype, Monaco, Menlo, "JFドットjiskan16-2000", monospace;
+  font-family: "DOS", "myFont";
   font-size: 18px;
   line-height: 20px;
   color: #bbbbbb;
@@ -1035,7 +1032,7 @@ code,
 pre {
   padding: 0;
 /*font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;*/
-  font-family: "JFドットjiskan16-2000", "JFドット出水ゴシック16", "JFドット東雲明朝16" ;
+  font-family: DOS, myFont;
   font-size: 18px;
   color: #555555;
   -webkit-border-radius: 0;
@@ -1135,7 +1132,7 @@ input,
 button,
 select,
 textarea {
-  font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: DOS, "myFont", Monaco, Menlo, Consolas, "Courier New", monospace;
 }
 
 label {

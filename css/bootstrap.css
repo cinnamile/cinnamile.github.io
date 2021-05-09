@@ -233,7 +233,7 @@ textarea {
   font-family: 'pixeltype';
   font-style: normal;
   font-weight: normal;
-  src: local('?'),  url('fonts/Pixeltype.ttf') format('truetype');
+  src: url('fonts/Pixeltype.ttf') format('truetype');
 }
 
 // 日本語フォント
@@ -241,12 +241,12 @@ textarea {
   font-family: 'JFドットjiskan16-2000';
   font-style: normal;
   font-weight: normal;
-  src: local('?'),  url('fonts/JF-Dot-jiskan16-2000.ttf') format('truetype');
+  src: url('fonts/websubset.woff') format('woff'), url('fonts/websubset.ttf') format('truetype');
 }
 
 body {
   margin: 0;
-  font-family: pixeltype, Monaco, Menlo, Consolas, "Courier New", "JFドットjiskan16-2000", monospace;
+  font-family: pixeltype, Monaco, Menlo, "JFドットjiskan16-2000", monospace;
   font-size: 18px;
   line-height: 20px;
   color: #bbbbbb;
